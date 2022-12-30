@@ -61,6 +61,7 @@ class Test(MDApp, App):
         """
         if text == "Ĩ":
             # PauseBreak == "Ĩ"
+            print(f"{self.__class__} : reloading...")
             self.reload_py()
             self.rebuild()
 
